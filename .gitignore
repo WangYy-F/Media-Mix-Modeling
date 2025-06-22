@@ -1,0 +1,70 @@
+# Core ignores (Python-specific)
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (large or sensitive)
+data/*.pt
+data/*.pkl
+data/*.h5
+data/*.csv
+!data/generate_synthetic.py  # Keep the generator script
+
+# Model artifacts
+*.onnx
+*.pth
+*.hdf5
+*.joblib
+checkpoints/
+
+# ONNX/training outputs
+*.onnx_quantized
+*.prototxt
+
+# Logs and outputs
+logs/
+*.log
+mlruns/
+wandb/
+
+# Config overrides
+configs/local/  # Ignore local config overrides
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# System files
+Thumbs.db
