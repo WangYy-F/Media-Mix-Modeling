@@ -32,7 +32,7 @@ A Bayesian approach to media mix modeling with:
 
 ## Full Technical Analysis
 For complete methodology and implementation details:  
-📊 **[View Interactive Report](Bayesian_MMM_Demo.html)**
+📊 **[View Interactive Report](notebooks/Bayesian_MMM_Demo.ipynb)**
 
 <div align="center">
   <img src="notebooks/ab_test_results.png" width="80%">
