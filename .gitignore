@@ -64,7 +64,6 @@ configs/local/  # Ignore local config overrides
 
 # Jupyter/Colab
 .ipynb_checkpoints/
-*.ipynb
 
 # System files
 Thumbs.db
